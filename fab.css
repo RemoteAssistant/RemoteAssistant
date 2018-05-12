@@ -1,0 +1,41 @@
+.fab .main-btn {
+    padding: 5px 12px;
+    border-radius: 20px;
+    position: fixed;
+    left: 20px;
+    bottom: 20px;
+    background-color: rgb(16, 111, 228);
+    color: white;
+    border: none;
+    font-size: 22px;
+    outline: none;
+    cursor: pointer;
+    transform: scale(1.1, 1.1) translate3d(0px, 0px, 0px);
+    transition: transform 400ms cubic-bezier(0.175, 0.885, 0.32, 1.275)
+}
+
+.fab .main-btn:hover {
+    transform: scale(1.2, 1.2) translate3d(0px, 0px, 0px);
+}
+
+.fab .fab-menu {
+    display: none;
+    position: fixed;
+    bottom: 70px;
+    left: 20px;
+}
+
+.fab .fab-menu.open {
+    display: inline-block;
+}
+
+.fab .fab-menu .fab-menu-btn {
+    padding: 5px 12px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    display: block;
+    margin: 10px 0;
+    font-size: 22px;
+}
